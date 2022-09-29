@@ -14,7 +14,7 @@
 # nosemgrep: dockerfile.audit.dockerfile-source-not-pinned.dockerfile-source-not-pinned
 FROM harisekhon/alpine-java:jre8
 
-ARG HBASE_VERSION=2.1.3
+ARG HBASE_VERSION=2.4.14
 
 LABEL org.opencontainers.image.description="HBase" \
       org.opencontainers.image.version="$HBASE_VERSION" \
